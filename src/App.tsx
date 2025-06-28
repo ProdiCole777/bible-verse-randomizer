@@ -24,7 +24,7 @@ function App() {
   console.log("App component rendering");
 
   return (
-    <div className="min-h-screen bg-gradient-to-t from-slate-900 to-slate-500 flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center p-4">
       <VerseCard verses={verses} />
     </div>
   );
