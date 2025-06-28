@@ -24,7 +24,7 @@ function App() {
   console.log("App component rendering");
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center p-2 sm:p-4">
       <VerseCard verses={verses} />
     </div>
   );
