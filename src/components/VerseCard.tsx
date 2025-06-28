@@ -23,10 +23,10 @@ const VerseCard = ({ verses }: VerseCardProps) => {
         style={{
           color: "#5c2d91",
           textShadow: `
-            -0.5px -0.5px 0 rgb(230, 228, 228),
-            0.5px -0.5px 0 rgb(230, 228, 228),
-            -0.5px 0.5px 0 rgb(230, 228, 228),
-            0.5px 0.5px 0 rgb(230, 228, 228)
+            -1px -1px 0 #e6e4e4,
+            1px -1px 0 #e6e4e4,
+            -1px 1px 0 #e6e4e4,
+            1px 1px 0 #e6e4e4
           `,
         }}
       >
