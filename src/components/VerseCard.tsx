@@ -18,7 +18,18 @@ const VerseCard = ({ verses }: VerseCardProps) => {
   return (
     <div className="bg-gradient-to-t from-zinc-100 to-zinc-500 p-4 sm:p-6 md:p-8 rounded-xl shadow-xl text-center space-y-4 sm:space-y-6 w-full max-w-4xl mx-auto">
       {/* HEADER */}
-      <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-outline-white-mobile sm:text-outline-white">
+      <h1
+        className="text-xl sm:text-2xl md:text-3xl font-extrabold"
+        style={{
+          color: "#5c2d91",
+          textShadow: `
+            -0.5px -0.5px 0 rgb(230, 228, 228),
+            0.5px -0.5px 0 rgb(230, 228, 228),
+            -0.5px 0.5px 0 rgb(230, 228, 228),
+            0.5px 0.5px 0 rgb(230, 228, 228)
+          `,
+        }}
+      >
         Bible Verse Randomizer
       </h1>
 
