@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fallback styles in case Tailwind fails to load */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, #1e293b, #64748b);
+  padding: 1rem;
+}
+
 @layer utilities {
     .text-outline-white {
       -webkit-text-stroke: 1px rgb(230, 228, 228);

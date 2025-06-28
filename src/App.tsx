@@ -21,6 +21,8 @@ const verses: Verse[] = [
 ];
 
 function App() {
+  console.log("App component rendering");
+
   return (
     <main className="bg-gradient-to-t from-slate-900 to-slate-500 min-h-screen flex items-center justify-center p-4">
       <VerseCard verses={verses} />
