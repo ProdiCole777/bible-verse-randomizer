@@ -21,8 +21,12 @@ body {
 
 @layer utilities {
     .text-outline-white {
-      -webkit-text-stroke: 1px rgb(230, 228, 228);
       color: #5c2d91; /* Custom purple color */
+      text-shadow: 
+        -1px -1px 0 rgb(230, 228, 228),
+        1px -1px 0 rgb(230, 228, 228),
+        -1px 1px 0 rgb(230, 228, 228),
+        1px 1px 0 rgb(230, 228, 228);
     }
   }
   
